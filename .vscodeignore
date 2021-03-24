@@ -1,0 +1,8 @@
+.vscode/**
+scripts/**
+src/**
+.prettierrc.js
+jest.config.js
+tsconfig.json
+tsconfig.*.json
+yarn.lock

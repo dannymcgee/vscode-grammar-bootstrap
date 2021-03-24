@@ -1,0 +1,9 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"types": ["node"]
+	},
+	"include": ["scripts/**/*.ts", "scripts/*.ts"],
+	"exclude": ["node_modules", "src"]
+}

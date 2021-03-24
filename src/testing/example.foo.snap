@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`example should work 1`] = `
+
+-> print("Hello, world!");
+ | ^^^^^ entity.name.function.foo
+ |      ^ punctuation.brace.round.foo
+ |       ^ punctuation.definition.string.begin.foo  string.foo
+ |        ^^^^^^^^^^^^^ string.foo
+ |                     ^ punctuation.definition.string.end.foo  string.foo
+ |                      ^ punctuation.brace.round.foo
+ |                       ^ punctuation.terminator.foo
+-> 
+`;

@@ -98,7 +98,6 @@ export async function processIndex(
 
 	let index = Path.resolve(outPath, 'index.ts');
 	let contents = await fmt.print(lines.join('\n'));
-	// let contents = lines.join('\n');
 
 	await fs.writeFile(index, contents);
 }
