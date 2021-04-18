@@ -1,7 +1,7 @@
 {
-	"name": "foo-grammar",
+	"name": "vscode-foo-grammar",
+	"displayName": "Foo Grammar",
 	"description": "VSCode TextMate grammar for Foo",
-	"displayName": "vscode-foo-grammar",
 	"version": "1.0.0",
 	"main": "index.js",
 	"author": "Danny McGee <dannymcgee@gmail.com>",
